@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Thomas Trogens New GIT Laravel Page
+                    My New Laravel Page uploaded through Git
                 </div>
 
                 <div class="links">

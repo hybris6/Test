@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('result', function () {
+    return view('result');
+});
+
 Auth::routes();
 
+Route::get('/redirect', 'SocialAuthFacebookController@redirect'); //FBLogin 2017-11-21
+Route::get('/callback', 'SocialAuthFacebookController@callback'); //FBLogin 2017-11-21
+
 Route::get('/home', 'HomeController@index')->name('home');
+

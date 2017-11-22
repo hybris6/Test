@@ -38,7 +38,7 @@ return [
 	'facebook' => [ //Added for FB login 2017-11-21
     'client_id' => '1741436066158994',
     'client_secret' => 'e81ea20f8f0520acfa0a71cd0df234cc',
-    'redirect' => 'https://nfoscan.com/callback',
+    'redirect' => 'https://nfoscan.com/callback/',
 	],
 
 ];

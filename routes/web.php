@@ -26,3 +26,4 @@ Route::get('/callback', 'SocialAuthFacebookController@callback'); //FBLogin 2017
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');

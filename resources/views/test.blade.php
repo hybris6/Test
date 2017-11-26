@@ -8,7 +8,7 @@
 	<title>Thomas testsida</title>
 	<style>
 		html, body {
-                background-color: #fff;
+                background-color: #0ff;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;

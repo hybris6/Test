@@ -19,6 +19,10 @@ Route::get('result', function () {
     return view('result');
 });
 
+Route::get('test', function () {
+    return view('test');
+});
+
 Auth::routes();
 
 Route::get('/redirect', 'SocialAuthFacebookController@redirect'); //FBLogin 2017-11-21

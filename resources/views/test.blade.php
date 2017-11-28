@@ -172,8 +172,21 @@
 <body>
 <div id="container">
 	<div id="toplogo">
-	</div>
+	</div>        
 	<div id="topmenu">
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}">Products</a>
+						
+                    @else
+			<a href="{{ url('/test') }} ">Test</a>
+			<a href="{{ url('/result') }}">search</a>
+                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('register') }}">Register</a>
+                    @endauth
+                </div>
+            @endif
 	</div>
 	<div id="pagecontent">Test1 <br> Test2 <br> Test4
 	</div>
